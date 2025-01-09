@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystal Graphics</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+
+<style>
+    /* General Reset */
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-button-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .whatsapp-button {
+      width: 60px;
+      height: 60px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      font-size: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      transform: scale(1.1);
+    }
+
+    /* Tooltip */
+    .whatsapp-button-tooltip {
+      display: none;
+      position: absolute;
+      bottom: 70px; /* Adjust the tooltip position */
+      right: 0;
+      background-color: #25d366;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-button-container:hover .whatsapp-button-tooltip {
+      display: block;
+    }
+  </style>
+
+
+  </head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="fade-in">Crystal Graphics</h1>
+      <p class="slide-in">Your Destination for Custom Printed Products</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h2 class="fade-in">Welcome to Crystal Graphics</h2>
+      <p class="slide-in">We specialize in designing and selling custom-printed mugs, glass frames, wedding cards, and more. Let's make your memories shine!</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <div class="container">
+      <h2 class="fade-in">Our Products</h2>
+      <div class="product-list">
+        <div class="product zoom-in">
+          <img src="mug.jpg" alt="Printed Mug">
+          <h3>Custom Mugs</h3>
+          <p>Starting at $5</p>
+        </div>
+        <div class="product zoom-in">
+          <img src="glass_frame.jpg" alt="Glass Frame">
+          <h3>Glass Frames</h3>
+          <p>Starting at $15</p>
+        </div>
+        <div class="product zoom-in">
+          <img src="wedding_card.jpg" alt="Wedding Card">
+          <h3>Wedding Cards</h3>
+          <p>Starting at $10</p>
+        </div>
+        <div class="product zoom-in">
+          <img src="Business Card" alt="Glass Frame">
+          <h3>Glass Frames</h3>
+          <p>Starting at $15</p>
+        </div>
+        <div class="product zoom-in">
+          <img src="Letter Head" alt="Glass Frame">
+          <h3>Glass Frames</h3>
+          <p>Starting at $15</p>
+        </div>
+        <div class="product zoom-in">
+          <img src="Logo Design" alt="Glass Frame">
+          <h3>Glass Frames</h3>
+          <p>Starting at $15</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="fade-in">About Us</h2>
+      <p class="slide-in">Hello! I'm <strong>Mohamed Siran</strong>, a passionate graphic designer and the founder of <strong>Crystal Graphics</strong>. We aim to provide high-quality and affordable custom-printed products for every occasion. Let us bring your ideas to life!</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="fade-in">Contact Us</h2>
+      <p class="slide-in">Have a question or want to place an order? Reach out to us!</p>
+      <p class="slide-in"><strong>Phone & WhatsApp:</strong> +94 717 62 92 62</p>
+      <p class="slide-in"><strong>Email:</strong> mohamedsiran2@gmail.com</p>
+      <form class="fade-in">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Crystal Graphics. All Rights Reserved.</p>
+    </div>
+  </footer>
+.
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Button</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button-container">
+    <a href="https://wa.me/94717629262?text=Hello%20I%20am%20interested%20in%20your%20services" class="whatsapp-button" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <span class="whatsapp-button-tooltip">WhatsApp US. +94 717 62 92 62</span>
+  </div>
+</body>
+</html>
